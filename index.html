@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
+    <link rel="shortcut icon" href="Favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="mainnavigation">
+                <div class="leftside">
+                    <div class="amazonsign">
+                        <a href="index.html"><img src="amazonIcon.png" alt="amazon"
+                                style="width: 7.6em; height: 2.5em; min-width: 7.6em; min-height: 2.5em;"></a>
+                    </div>
+                    <div class="adress">
+                        <div class="locationtag">
+                            <i class="fa-solid fa-location-dot" id="locationtag"></i>
+                        </div>
+                        <div class="address">
+
+                            <span class="firstelement">Delivering to Bijnor 246701</span>
+                            <span class="secondelement">Update location</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="navsearch">
+                        <div class="navleft">
+                            <label for="dropdown"></label>
+                            <select name="All" id="dropdown" class="dropdownn" required>
+                                <option value="All" hidden class="All">All</option>
+                                <option value="All Catagory" class="All">All Catagory</option>
+                                <option value="Alexa Skills" class="All">Alexa Skills</option>
+                                <option value="Amazon Device" class="All">Amazon Device</option>
+                                <option value="Amazon Fashion" class="All">Amazon Fashion</option>
+                                <option value="Amazon Pharmacy" class="All">Amazon Pharmacy</option>
+                                <option value="Appliance" class="All">Appliance</option>
+                                <option value="Apps and Games" class="All">Apps and Games</option>
+                                <option value="Baby" class="All">Baby</option>
+                                <option value="Beauty" class="All">Beauty</option>
+                                <option value="Books" class="All">Books</option>
+                            </select>
+                        </div>
+                        <div class="navcentre">
+                            <label for="search"></label>
+                            <input type="search" placeholder="  Search Amazon.in" id="search" class="searchbar">
+                        </div>
+
+                        <div class="navright">
+                            <i class="fa-solid fa-magnifying-glass" style="overflow-y: hidden;"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="rightside">
+
+                    <div class="languages">
+                        <img src="flag.png" alt="flag" width="20em" height="23em">
+                        <div class="langtext">
+                            <p>EN</p>
+                        </div>
+                    </div>
+                    <div class="account">
+                        <ul>
+                            <li class="helloandsignin">Hello, sign in</li>
+                            <li class="accountandlist">Account & Lists</li>
+                        </ul>
+                    </div>
+                    <div class="returnsandorders">
+                        <ul>
+                            <li class="returns">Returns</li>
+                            <li class="orders">& Orders</li>
+                        </ul>
+                    </div>
+                    <div class="cartandicon">
+
+                        <i class="fa-solid fa-cart-shopping" id="shoppingcart" style="overflow-y: hidden;"></i>
+                        <p class="cart">Cart</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="secondnavigation">
+                <div class="secondnavmargin">
+                    <p class="secondnavtext"><i class="fa-solid fa-bars" style="overflow-y: hidden;"></i> All</p>
+                    <p class="secondnavtext">Amazon miniTV</p>
+                    <p class="secondnavtext">Sell</p>
+                    <p class="secondnavtext">Best Sellers</p>
+                    <p class="secondnavtext">Mobiles</p>
+                    <p class="secondnavtext">Today's Deals</p>
+                    <p class="secondnavtext">Electronics</p>
+                    <p class="secondnavtext">Prime</p>
+                    <p class="secondnavtext">Fashion</p>
+                    <p class="secondnavtext">Customer Service</p>
+                    <p class="secondnavtext">Home & Kitchen</p>
+                    <p class="secondnavtext">New Release</p>
+                    <p class="secondnavtext">Amazon Pay</p>
+                    <p class="secondnavtext">Computers</p>
+                    <p class="secondnavtext">Books</p>
+                    <p class="secondnavtext">Gift Ideas</p>
+                    <p class="secondnavtext">Car & Mobiles</p>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="pagecontent">
+            <div class="mainbox">
+                <div class="bannerimage">
+                    <!-- <img src="bannerimage1.jpg" alt="bannerimage1" class="bannerimage1"> -->
+                    <!-- <img src="bannerimage2.jpg" alt="bannerimage2" class="bannerimage2">
+                    <img src="bannerimage3.jpg" alt="bannerimage3" class="bannerimage3">
+                    <img src="bannerimage4.png" alt="bannerimage4" class="bannerimage4">
+                    <img src="bannerimage5.jpg" alt="bannerimage5" class="bannerimage5">
+                    <img src="bannerimage6.jpg" alt="bannerimage6" class="bannerimage6">
+                    <img src="bannerimage7.jpg" alt="bannerimage7" class="bannerimage7">
+                    <img src="bannerimage8.jpg" alt="bannerimage8" class="bannerimage8">-->
+                    <img src="bannerimage9.jpg" alt="bannerimage9" class="bannerimage9">
+                </div>
+
+                <div class="productboxone">
+                    <div class="productboxone_first">
+                        <div class="productboxone_first_text"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em;">
+                            <p>Appliances for your home | Up to 55% off</p>
+                        </div>
+                        <div class="productboxone_first_photos">
+
+                            <div class="AC"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_first1.jpg" alt="productboxone_first1" width="150em"
+                                            height="100em"></li>
+                                    <li>Air conditioners</li>
+                                </ul>
+                            </div>
+                            <div class="washingmachine"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_first2.jpg" alt="productboxone_first2" width="150em"
+                                            height="100em"></li>
+                                    <li>Washing machines</li>
+                                </ul>
+                            </div>
+                            <div class="fridge"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_first3.jpg" alt="productboxone_first3" width="150em"
+                                            height="100em"></li>
+                                    <li>Refrigerators</li>
+                                </ul>
+                            </div>
+                            <div class="microwaves"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_first4.jpg" alt="productboxone_first4" width="150em"
+                                            height="100em"></li>
+                                    <li>Microwaves</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="productboxone_first_link"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">See more</a>
+                        </div>
+                    </div>
+                    <div class="productboxone_second">
+                        <div class="productboxone_secondtext"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em; ">
+                            <p>Starting ₹99 | Amazon Brands & more</p>
+                        </div>
+                        <div class="productboxone_secondphotos"
+                            style="display: flex; flex-flow: row wrap; justify-content: center;    align-items: center;">
+
+                            <div class="pot"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;  margin: 0 0.5em;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_second1.jpg" alt="productboxone_second1" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹179 | Home decor</li>
+                                </ul>
+                            </div>
+                            <div class="jars"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_second2.jpg" alt="productboxone_second2" width="150em"
+                                            height="100em"></li>
+                                    <li>Up to 60% off | Storage & racks</li>
+                                </ul>
+                            </div>
+                            <div class="teddy"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_second3.jpg" alt="productboxone_second3" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹99 | Toys & games</li>
+                                </ul>
+                            </div>
+                            <div class="kids"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_second4.jpg" alt="productboxone_second4" width="150em"
+                                            height="100em"></li>
+                                    <li>Up to 60% off | Jackets & more</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="productboxone_secondlink"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+
+                            <a href="" style="text-decoration: none;">See more</a>
+
+                        </div>
+                    </div>
+                    <div class="productboxone_third">
+                        <div class="productboxone_secondtext"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em; ">
+                            <p>Starting ₹199 | Amazon Brands & more</p>
+                        </div>
+                        <div class="productboxone_secondphotos"
+                            style="display: flex; flex-flow: row wrap; justify-content: center;    align-items: center;">
+
+                            <div class="pot"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;  margin: 0 0.5em;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_third1.jpg" alt="productboxone_second1" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹199 | Bedsheets</li>
+                                </ul>
+                            </div>
+                            <div class="jars"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_third2.jpg" alt="productboxone_second2" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹199 | Curtains</li>
+                                </ul>
+                            </div>
+                            <div class="teddy"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_third3.jpg" alt="productboxone_second3" width="150em"
+                                            height="100em"></li>
+                                    <li>40% off | Ironing Boards</li>
+                                </ul>
+                            </div>
+                            <div class="kids"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_third4.jpg" alt="productboxone_second4" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹179 | Home decor</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="productboxone_secondlink"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">See more</a>
+                        </div>
+                    </div>
+                    <div class="productboxone_fourth">
+                        <div class="productboxone_secondtext"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em; ">
+                            <p>Up to 60% off | Styles for women</p>
+                        </div>
+                        <div class="productboxone_secondphotos"
+                            style="display: flex; flex-flow: row wrap; justify-content: center;    align-items: center;">
+
+                            <div class="pot"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;  margin: 0 0.5em;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_fourth1.jpg" alt="productboxone_second1" width="150em"
+                                            height="100em"></li>
+                                    <li>Women's Clothing</li>
+                                </ul>
+                            </div>
+                            <div class="jars"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_fourth2.jpg" alt="productboxone_second2" width="150em"
+                                            height="100em"></li>
+                                    <li>Footwear+Handbags</li>
+                                </ul>
+                            </div>
+                            <div class="teddy"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_fourth3.jpg" alt="productboxone_second3" width="150em"
+                                            height="100em"></li>
+                                    <li>Watches</li>
+                                </ul>
+                            </div>
+                            <div class="kids"
+                                style="font-size: 11px; font-family: 'Nunito Sans'; margin: 0 0.5em; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_fourth4.jpg" alt="productboxone_second4" width="150em"
+                                            height="100em"></li>
+                                    <li>Fashion jewellery</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="productboxone_secondlink"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">End of season sale</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="productboxtwo">
+                    <div class="productboxtwo_text"
+                        style="align-self: flex-start; font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; margin-bottom: 0.5em; margin-left: 0.9em;">
+                        <p>Deals on furniture & home essentials from stores nearby <span><a href=""
+                                    style="font-size: 14px; font-weight: 600; font-family: 'Nunito Sans'; margin-bottom: 0.5em; margin-left: 1em; text-decoration: none;color: #017184;">See
+                                    all offers</a></span></p>
+                    </div>
+                    <div class="productboxtwo_photos"
+                        style="display: flex; flex-flow: row nowrap; gap: 0.8em; margin: 0 0.5em; margin-bottom: 0.9em;     width:1420px; height: 200px; flex-shrink: 0;">
+                        <img src="productboxtwo1.jpg" alt="productboxtwo1" width="286px" class="productboxtwo_img">
+                        <img src="productboxtwo2.jpg" alt="productboxtwo2" width="182px" class="productboxtwo_img">
+                        <img src="productboxtwo3.jpg" alt="productboxtwo3" width="200px" class="productboxtwo_img">
+                        <img src="productboxtwo4.jpg" alt="productboxtwo4" width="200px" class="productboxtwo_img">
+                        <img src="productboxtwo5.jpg" alt="productboxtwo5" width="200px" class="productboxtwo_img">
+                        <img src="productboxtwo6.jpg" alt="productboxtwo6" width="200px" class="productboxtwo_img">
+                        <img src="productboxtwo7.jpg" alt="productboxtwo7" width="200px" class="productboxtwo_img">
+                    </div>
+                </div>
+                <div class="productboxthree">
+                    <div class="productboxtwo_text"
+                        style="align-self: flex-start; font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; margin-bottom: 0.5em; margin-left: 0.9em;">
+                        <p>Related to items you've viewed<span><a href=""
+                                    style="font-size: 14px; font-weight: 600; font-family: 'Nunito Sans'; margin-bottom: 0.5em; margin-left: 1em; text-decoration: none;color: #017184;">See
+                                    all offers</a></span></p>
+
+
+                    </div>
+                    <div class="productboxtwo_photos"
+                        style="display: flex; flex-flow: row nowrap; gap: 0.8em; margin: 0 0.5em; margin-bottom: 0.9em;     width:1420px; height: 200px; flex-shrink: 0;">
+                        <img src="productboxthree1.jpg" alt="productboxtwo1" width="286px" class="productboxtwo_img">
+                        <img src="productboxthree2.jpg" alt="productboxtwo2" width="182px" class="productboxtwo_img">
+                        <img src="productboxthree3.jpg" alt="productboxtwo3" width="200px" class="productboxtwo_img">
+                        <img src="productboxthree4.jpg" alt="productboxtwo4" width="200px" class="productboxtwo_img">
+                        <img src="productboxthree5.jpg" alt="productboxtwo5" width="200px" class="productboxtwo_img">
+                        <img src="productboxthree6.jpg" alt="productboxtwo6" width="200px" class="productboxtwo_img">
+                        <img src="productboxthree7.jpg" alt="productboxtwo7" width="200px" class="productboxtwo_img">
+                    </div>
+
+                </div>
+
+                <div class="productboxfour">
+                    <div class="productboxfour_first">
+                        <div class="productboxone_first_text"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em;">
+                            <p>Pick up where you left off</p>
+                        </div>
+                        <div class="productboxone_first_photos">
+
+                            <div class="AC"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_first1.jpg" alt="productboxone_first1" width="150em"
+                                            height="100em"></li>
+                                    <li>Air conditioners</li>
+                                </ul>
+                            </div>
+                            <div class="washingmachine"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_first2.jpg" alt="productboxone_first2" width="150em"
+                                            height="100em"></li>
+                                    <li>Washing machines</li>
+                                </ul>
+                            </div>
+                            <div class="fridge"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_first3.jpg" alt="productboxone_first3" width="150em"
+                                            height="100em"></li>
+                                    <li>Refrigerators</li>
+                                </ul>
+                            </div>
+                            <div class="microwaves"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_first4.jpg" alt="productboxone_first4" width="150em"
+                                            height="100em"></li>
+                                    <li>Microwaves</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="productboxone_first_link"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">See more</a>
+                        </div>
+                    </div>
+                    <div class="productboxfour_second">
+                        <div class="productboxone_first_text"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em;">
+                            <p>Starting ₹99 | Amazon Brands & more</p>
+                        </div>
+                        <div class="productboxone_first_photos">
+
+                            <div class="AC"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_third1.jpg" alt="productboxone_first1" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹199 | Bedsheets</li>
+                                </ul>
+                            </div>
+                            <div class="washingmachine"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_third2.jpg" alt="productboxone_first2" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹199 | Curtains</li>
+                                </ul>
+                            </div>
+                            <div class="fridge"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_third3.jpg" alt="productboxone_first3" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹179 | Home decor</li>
+                                </ul>
+                            </div>
+                            <div class="microwaves"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_third4.jpg" alt="productboxone_first4" width="150em"
+                                            height="100em"></li>
+                                    <li>Microwaves</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="productboxone_first_link"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">See more</a>
+                        </div>
+                    </div>
+                    <div class="productboxfour_third">
+                        <div class="productboxone_first_text"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em;">
+                            <p>Up to 60% off | Styles for women</p>
+                        </div>
+                        <div class="productboxone_first_photos">
+
+                            <div class="AC"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_fourth1.jpg" alt="productboxone_first1" width="150em"
+                                            height="100em"></li>
+                                    <li>Women's Clothing</li>
+                                </ul>
+                            </div>
+                            <div class="washingmachine"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_fourth2.jpg" alt="productboxone_first2" width="150em"
+                                            height="100em"></li>
+                                    <li>Footwear+Handbags</li>
+                                </ul>
+                            </div>
+                            <div class="fridge"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_fourth3.jpg" alt="productboxone_first3" width="150em"
+                                            height="100em"></li>
+                                    <li>Watches</li>
+                                </ul>
+                            </div>
+                            <div class="microwaves"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_fourth4.jpg" alt="productboxone_first4" width="150em"
+                                            height="100em"></li>
+                                    <li>Fashion jewellery</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="productboxone_first_link"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">See more</a>
+                        </div>
+                    </div>  
+                    <div class="productboxfour_fourth">
+                        <div class="productboxone_first_text"
+                            style="font-size: 22px; font-weight: 700; font-family: 'Nunito Sans'; display: flex; justify-content: center; align-items: center; margin: 0 0.8em;">
+                            <p>Appliances for your home | Up to 55% off</p>
+                        </div>
+                        <div class="productboxone_first_photos">
+
+                            <div class="AC"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul
+                                    style="list-style: none; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                    <li><img src="productboxone_second1.jpg" alt="productboxone_first1" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹179 | Home decor</li>
+                                </ul>
+                            </div>
+                            <div class="washingmachine"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_second2.jpg" alt="productboxone_first2" width="150em"
+                                            height="100em"></li>
+                                    <li>Up to 60% off | Storage & racks</li>
+                                </ul>
+                            </div>
+                            <div class="fridge"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_second3.jpg" alt="productboxone_first3" width="150em"
+                                            height="100em"></li>
+                                    <li>Starting ₹99 | Toys & games</li>
+                                </ul>
+                            </div>
+                            <div class="microwaves"
+                                style="margin: 0 0.5em; font-size: 11px; font-family: 'Nunito Sans'; font-weight: 400;">
+                                <ul style="list-style: none;">
+                                    <li><img src="productboxone_second4.jpg" alt="productboxone_first4" width="150em"
+                                            height="100em"></li>
+                                    <li>Up to 60% off | Jackets & more</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="productboxone_first_link"
+                            style="align-self: flex-start; margin: 1.5em 0 0.5em 1em;">
+                            <a href="" style="text-decoration: none;">See more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </main>
+
+    <footer>
+        <div class="footerone">
+            <div class="backtotop">Back to top</div>
+        </div>
+        <div class="footertwo">
+            <div class="infobox">
+                <div class="gettoknow">
+                    <ul style="text-decoration: none;">
+                        <li style="font-family: 'Nunito Sans'; font-size: 15px; font-weight: 700; color: #FFFFFF;">Get to Know Us</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">About Us</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Careers</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Press Releases</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Amazon Science</li>
+                    </ul>
+                </div>
+                <div class="connect">
+                    <ul>
+                        <li style="font-family: 'Nunito Sans'; font-size: 15px; font-weight: 700; color: #FFFFFF;">Connect with Us</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Facebook</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Twitter</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Instagram</li>
+                    </ul>
+                </div>
+                <div class="makemoney">
+                    <ul>
+                        <li style="font-family: 'Nunito Sans'; font-size: 15px; font-weight: 700; color: #FFFFFF;">Make Money with Us</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Sell on Amazon</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Sell under Amazon Accelerator</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Protect and Build Your Brand</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Amazon Global Selling</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Become an Affiliate</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Fulfilment by Amazon</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Advertise Your Products</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Amazon Pay on Merchants</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <ul>
+                        <li style="font-family: 'Nunito Sans'; font-size: 15px; font-weight: 700; color: #FFFFFF;">Let Us Help You</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">COVID-19 and Amazon</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Your Account</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Returns Centre</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">100% Purchase Protection</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Amazon App Download</li>
+                        <li style="font-family: 'Nunito Sans'; font-size: 12px; font-weight: 600; margin-top: 0.6em; color: #DDDDDD;">Help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footerthree">
+            <div class="ama">
+                <img src="amazononly.png" alt="amazon" >
+                    
+            </div>
+            <div class="en">
+                <i class="fa-solid fa-globe" style="color: #D3D5D7;"></i>
+                <p style="font-family: 'Nunito Sans'; font-size: 13px; font-weight: 600; margin-top: 0.2em; margin-left: 0.5em; color: #ACAEB1;">English</p>
+            </div>
+            <div class="country">
+                <img src="flag.png" alt="flag" width="20em" height="23em">
+                <p style="font-family: 'Nunito Sans'; font-size: 13px; font-weight: 600; margin-top: 0.2em; margin-left: 0.5em; color: #ACAEB1;">India</p>    
+            </div>
+        </div>
+        
+        <div class="footerfour">
+            <div class="infobox2">
+                <div class="aaai">
+                    <div class="abebooks">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">AbeBooks</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Books, art</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;; color: #DDDDDD;">& collectibles</li>
+                        </ul>
+                    </div>
+                    <div class="aws">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">Web Services</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Scalable Cloud</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Computing Services</li>
+                        </ul>
+                    </div>
+                    <div class="audible">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">Audible</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Download</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Audio Books</li>
+                        </ul>
+                    </div>
+                    <div class="imDb">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">IMDb</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Movies, TV</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;; color: #DDDDDD;">& Celebrities</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sbpm">
+                    <div class="shopbop">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">Shopbop</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Designer</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Fashion Brands</li>
+                        </ul>
+                    </div>
+                    <div class="buisness">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">Amazon Business</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">Everything For</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600; color: #DDDDDD;">Your Business</li>
+                        </ul>
+                    </div>
+                    <div class="prime">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">Prime Now</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600;;color: #DDDDDD;">2-Hour Delivery</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600; color: #DDDDDD;">on Everyday Items</li>
+                        </ul>
+                    </div>
+                    <div class="music">
+                        <ul>
+                            <li style="font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #FFFFFF;">Prime Music</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600; color: #DDDDDD;">100 million songs</li>
+                            <li style="font-family: 'Nunito Sans'; font-size: 8px; font-weight: 600; color: #DDDDDD;">Podcast episodes </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="infobox3">
+                <div class="notice">
+                    <span style="margin: 0.5em; font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #DDDDDD;">Conditions of Use &Sale</span>
+                    <span style="margin: 0.5em; font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #DDDDDD;">Privacy Notice</span>
+                    <span style="margin: 0.5em;font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #DDDDDD;">Interest-Based Ads </span><br>
+                </div>
+                <div class="copyrights">
+                    <span style="margin: 0.5em;font-family: 'Nunito Sans'; font-size: 11px; font-weight: 600; color: #DDDDDD;">© 1996-2024, Amazon.com, Inc. or its affiliates</span>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
